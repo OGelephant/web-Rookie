@@ -21,3 +21,58 @@ SEO搜索引擎爬虫技术。lang="en"
 行级元素
 块级元素
 行内块级元素
+11.24练习
+html代码：
+```<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>练习</title>
+<link rel="stylesheet" type="text/css" href="01.css">
+
+</head>
+<body>
+
+
+<div class='c1'></div>
+<div class='c2'></div>
+<div class='c3'></div>
+<div class='c3'></div>
+<div class='c4'></div>
+
+
+</body>
+</html>```
+css:
+````
+	*{
+		margin: 0;
+
+	}
+
+
+
+	div{
+		display: inline;
+		padding: 30px;
+		position: relative;
+		top: 50px;
+		width: 200px;
+		height: 200px;
+		background: white;
+		border:20px solid black;
+	    border-radius: 50%;
+	/*width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 5px;
+	border: 100px;
+	padding: 20px;
+	padding-color:yellow;
+	background-color:red;*/
+	}
+
+/*	body{
+
+		background: yellow;
+	}*/
+```
