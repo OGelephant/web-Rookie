@@ -1,0 +1,122 @@
+switch  case 语句
+switch (){ }
+为了终止swith 向下循环，case里面加break;
+while循环
+break必须放在循环里面
+
+数组
+var arr = [1,1,2,1,1];
+arr.length数组的长度
+
+对象
+var  a = {
+属性值：属性名，
+属性值：属性名，
+属性值：属性名，
+}//一定要用逗号隔开
+
+对象的值怎么取 
+a.属性名
+
+###typeof
+typeof ()
+可以返回六个值  ( number string boolean object undefined function  )
+
+null 返回的也是object
+
+
+##类型转换
+显示类型转换
+隐式类型转换
+
+
+null转换成数字是0
+undefined 转换成数字是NaN
+undefined 不能转换成数字
+
+
+parseInt()转换成整型
+但是 true undefined  等只能转换成NaN
+parseInt(数字，基底)
+例如  
+var num = parseInt("10",16 );
+表示以16进制为基底转化为十进制
+结果为11
+基底radix的取值范围是2到36
+
+parseFloat 
+String 
+Boolean
+toString//undefined 和null 不能用toString
+toString (radix)和parseInt相反
+将目标数字转化成radix进制
+
+隐式类型转换
+isNaN返回true和false 
+特殊：“abc”为true
+
+
+特殊typeof(typeof(a))
+返回值为string 
+
+toFixed(3)科学计数法  保留三位 有效数字
+
+
+undefined
+undefined
+NaN//错了  number
+null//错了  object 
+NaN
+number
+number//错了 bollean
+string
+true
+false
+false
+1111
+false
+123
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
